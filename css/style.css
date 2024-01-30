@@ -1,0 +1,14 @@
+:root{
+    --main-color: #00D061;
+    --sec-color: #0A0618;
+    --ter-color: #C5C7CA;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: var(--main-color);
+    color: #fff;
+}
