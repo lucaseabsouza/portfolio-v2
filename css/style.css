@@ -1,39 +1,47 @@
 :root{
-    --main-color: #17f07c;
+    --main-color: #00B655;
     --sec-color: #0A0618;
-    --ter-color: #C5C7CA;
+    --ter-color: #eeeeee;
+    --shadow-color: #130a35;
 }
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--sec-color);
+    width: auto;
+    margin: 0 10rem 0 10rem;
 }
 
 #header{
-    background-color: #fff;
-    color: var(--sec-color);
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid var(--sec-color);
 }
 
-#brand{
-    display: flex;
-    align-items: center;
+h1{
+    color: var(--main-color);
 }
 
-#logo{
-    width: 80px;
+h2{
+    color: var(--ter-color);
 }
 
-#header, nav, ul{
-    display: flex;
-    align-items: center;
+.foto_Lucas{
+    width: 15vw;
+    box-shadow: 4px 4px 12px var(--shadow-color);
+    border-radius: 25%;
+    margin: 5rem 0;
 }
 
-ul, li{
-    list-style: none;
+.titles{
+    color: var(--main-color);
+}
+.subtitles{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 li{
-    margin: 0 10px;
+    color: var(--ter-color);
+    margin-top: 0.5rem;
 }
