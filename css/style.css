@@ -1,8 +1,7 @@
 :root{
-    --main-color: #00af55;
-    --sec-color: #171717;
-    --ter-color: #e9e9e9;
-    --shadow-color: #130a35;
+    --main-color: #FE7506;
+    --sec-color: #ffffff;
+    --ter-color: #131313;
 }
 
 body{
@@ -11,45 +10,43 @@ body{
     margin: auto 10rem auto 10rem;
 }
 
-@media (max-width: 1024px){
-    #header{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
-    
-    h1{
-        color: var(--main-color);
-        font-size: 4rem;
-    }
-    
-    h2{
-        color: var(--sec-color);
-        font-size: 2rem;
-    }
-    
-    .foto_Lucas{
-        width: 20vw;
-        border-radius: 25%;
-        display: flex;
-        margin: 1rem auto;
-    }
-    
-    .titles{
-        color: var(--main-color);
-        font-size: 2rem;
-        margin: 2rem auto;
-        display: flex;
-        justify-content: center;
-    }
-    .subtitles{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        font-size: 1.5rem;
-        color: var(--sec-color);
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: var(--main-color);
+    font-size: 4rem;
+}
+
+h2{
+    color: var(--sec-color);
+    font-size: 2rem;
+}
+
+.foto_Lucas{
+    width: 20vw;
+    border-radius: 25%;
+    display: flex;
+    margin: 1rem auto;
+}
+
+.titles{
+    color: var(--main-color);
+    font-size: 2rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+.subtitles{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: var(--sec-color);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
